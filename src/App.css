@@ -1,0 +1,34 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  margin: 0
+}
+
+code {
+  font-family: source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace
+}
+
+body,html {
+  background-color: #f8fafc;
+  color: #737a99;
+  font-family: Mulish,sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+  overflow-x: hidden
+}
+
+/* Hide social/email until the wallets are loaded */
+html.dark-mode .w3m-modal .w3m-auth {
+  order: 2;
+}
+html.dark-mode .w3m-modal .w3m-connectors {
+  order: 1;
+}
+
+/* Make sure flex container respects order */
+.w3m-modal {
+  display: flex;
+  flex-direction: column;
+}
