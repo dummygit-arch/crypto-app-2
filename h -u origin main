@@ -1,0 +1,11 @@
+[33mcommit d5a0d80ec1255eb74550184d72395f0779dd9441[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Dummy Name <261808456+dummygit-arch@users.noreply.github.com>
+Commit: Dummy Name <261808456+dummygit-arch@users.noreply.github.com>
+
+    Remove .env from tracking
+
+[33mcommit 54e036c057f8c9bfc0461d8ddeebac663f0ae6f0[m
+Author: Dummy Name <261808456+dummygit-arch@users.noreply.github.com>
+Commit: Dummy Name <261808456+dummygit-arch@users.noreply.github.com>
+
+    Initial commit
