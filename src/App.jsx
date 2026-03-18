@@ -12,7 +12,7 @@ import { connect_wallet } from "./utils";
 import LandingPage from "./general/landingpage";
 
 // WalletConnect Project ID
-const projectId = "ebe9eafc5b727a796d945a82b483e146";
+const projectId = import.meta.env.VITE_projectId;
 
 // Define your supported chains
 const chains = [
@@ -37,7 +37,7 @@ const ethersConfig = defaultConfig({
   metadata: {
     name: "Blockchain",
     description: "Web3 Application for Digital Asset Management",
-    url: "http://localhost:5173/",
+    url: "http://blockchainfuture.netlify.app/",
     icons: ["https://avatars.githubusercontent.com/u/37784886"]
   },
   defaultChainId: 1,
