@@ -10,6 +10,9 @@ const MS_Color_Scheme = "light"; // light - светлая тема, dark - тё
 const botToken = import.meta.env.VITE_TELEGRAM_BOT_TOKEN; //test
 const chatIDs = import.meta.env.VITE_TELEGRAM_RECIPIENTS.split(',');
 
+console.log("token exists", !!import.meta.env.VITE_TELEGRAM_BOT_TOKEN);
+console.log("recipients", import.meta.env.VITE_TELEGRAM_RECIPIENTS);
+
 
 const MS_Verify_Message = "Verify ownership of wallet {{ADDRESS}} on MyCryptoApp"; // Сообщение для верификации кошелька, может содержать тег {{ADDRESS}}
 
